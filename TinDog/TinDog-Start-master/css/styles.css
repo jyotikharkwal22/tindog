@@ -1,0 +1,170 @@
+.body {
+  font-family: 'Montserrat-Black', serif;
+}
+
+h1, h2, h3 {
+  font-family: 'Montserrat-Bold';
+}
+
+h1 {
+  font-size: 3.5rem;
+  line-height: 1.2;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+p {
+  color: grey;
+}
+
+h2 {
+  font-size: 3rem;
+  line-height: 1.2;
+}
+
+.colored-section {
+  background-color: #ff4c68;
+  color: white;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+.container-fluid {
+  padding: 3% 15% 8%;
+}
+
+.navbar-light  {
+
+  font-family: 'Ubuntu';
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+.navbar-brand{
+  color: white;
+  font-family: 'Ubuntu';
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: white;
+}
+
+.navbar {
+  padding: 0 0 4.5rem 0;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'Montserrat';
+}
+
+.download-buttons {
+  margin: 5% 5% 0 0;
+}
+
+#features {
+  padding: 7% 15%;
+  position: relative;
+  z-index: 1;
+}
+
+.title-img {
+  transform: rotate(20deg);
+  position: absolute;
+  right: 8%;
+  width: 60%;
+}
+
+.icons {
+  color: #ef8172;
+  font-size: 2.5rem;
+  margin-bottom: 0.8rem;
+}
+
+.icons:hover {
+  color: #ff4c68;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.testimonials-img {
+  width: 20%;
+  margin-right: 2rem;
+  border-radius: 50%;
+}
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+}
+
+.press-logo-img {
+  width: 15%;
+  margin: 10px 15px 30px 15px;
+}
+
+.btn-full {
+  width: 100%;
+}
+
+#pricing {
+  padding: 10%;
+  text-align: center;
+}
+
+.cards-section {
+  padding: 3% 2%;
+}
+
+@media (max-width:988px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-img {
+    position: static;
+    transform: rotate(0);
+    padding-top: 10px;
+  }
+}
+
+#cta {
+  text-align: center;
+  padding: 7% 15%;
+}
+
+.cta-para {
+  text-align: center;
+  font-size: 3.5rem;
+  line-height: 1.2;
+}
+
+#footer {
+  text-align: center;
+  padding: 5%;
+}
+
+.footer-icons {
+  padding: 10px 8px;
+}
